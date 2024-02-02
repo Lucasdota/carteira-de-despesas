@@ -1,12 +1,12 @@
-"use client"
-import React from 'react'
-import Form from './Form';
-import OtherBtns from './OtherBtns';
+"use client";
+import React from "react";
+import Form from "./Form";
+import OtherBtns from "./OtherBtns";
 
-type Props = {}
+type Props = {};
 
 const Login = (props: Props) => {
-	return (
+  return (
     <section
       aria-label="area de login"
       className="flex flex-col items-center justify-center p-6 bg-white rounded shadow-lg gap-6 w-96 xs:w-72"
@@ -15,6 +15,6 @@ const Login = (props: Props) => {
       <OtherBtns />
     </section>
   );
-}
+};
 
 export default Login;
