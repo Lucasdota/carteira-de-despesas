@@ -17,7 +17,7 @@ const Título = (props: Props) => {
           height={24}
           alt="logo do site, uma caderneta de despesas"
         />
-        <h1 className="text-lg font-bold">Note&apos;s</h1>
+        <h1 className="text-lg font-bold">Notarium</h1>
       </div>
       <h2 className="text-2xl font-bold drop-shadow-sm text-center">
         Carteira de Despesas
